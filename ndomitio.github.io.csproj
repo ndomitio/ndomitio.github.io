@@ -316,6 +316,7 @@
     <Content Include="BottomDetailsStyle.css" />
     <Content Include="Bottoms.css" />
     <Content Include="Home.css" />
+    <Content Include="index.html" />
     <Content Include="OutfitsStyleSheet.css" />
     <Content Include="ShoeDetailsStyle.css" />
     <Content Include="ShoesStyleSheet.css" />
