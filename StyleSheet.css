@@ -15,6 +15,7 @@ body, html {
 }
 /**settings for the 3 main images that will allow for the parallax scrolling effect*/
 .bgimg-1, .bgimg-2, .bgimg-3 {
+    
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -45,43 +46,14 @@ body, html {
     justify-content: space-around;
 }
 
-/*contains the styling effects for the giphy background of the "skills"/"about me"/"projects" title*/
-/*.skillscontainer {
-    background-color: #C0C0C0;
-}
-    */
-.skillscontainer {
-    display: flex;
-    justify-content: center;
-}
-.skills {
-    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
-    background-size: cover;
-    
-    -webkit-background-clip: text;
-    color: transparent;
-    /*set to transparent, otherwise won't see the background*/
-    width: 400px;
-    height: 100px;
-    box-sizing: border-box;
-    font-size: 65px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 100px;
-    flex-shrink: 0;
-    border: 5px solid black;
-}
-
 /*this style sheet section is for the about me in the second background image*/
 
 
 .bgimg-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url('images/1640.jpg');
     min-height: 600px;
     opacity: 0.75;
+    
 }
 
 

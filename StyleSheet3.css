@@ -1,5 +1,195 @@
 ﻿/**This style sheet contains the CSS effect for spinning cubes within the skills section and for the typewriter effect on the entry page*/
 
+/*contains the styling effects for the giphy background of the "skills"/"about me"/"projects" title*/
+/*.skillscontainer {
+    background-color: #C0C0C0;
+}
+    */
+.skillscontainer {
+    display: flex;
+    justify-content: center;
+}
+
+/***************/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close2:hover,
+    .close2:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /*****************************/
+
+.dropdown {
+    display:flex;
+    justify-content:center;
+    /*position: relative;
+    display: inline-block;*/
+}
+
+/*.front*/
+#dropbtn {
+    font-size:20px;
+    font-weight:bold;
+
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-top: -5vh;
+    box-sizing: border-box;
+    border: 5px solid black;
+    cursor:pointer;
+}
+
+#dropbtn2 {
+    font-size: 20px;
+    font-weight: bold;
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-top: -5vh;
+    box-sizing: border-box;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+
+.back {
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    margin-left: 37%;
+    margin-right: 37%;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-top: 0vh;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+.skills {
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    border: 5px solid black;
+}
+
+.skillslist {
+    margin-left: 37%;
+    margin-right: 37%;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+
+#skillsDescription {
+  border: 2px solid black;
+}
+
+#click{
+    height:40px;
+    width:40px;
+}
 /* keyframes for rotating animation */
 @-webkit-keyframes spin {
     from {
