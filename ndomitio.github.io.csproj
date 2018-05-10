@@ -200,6 +200,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\cwbg.jpg" />
     <Content Include="Content\favicon.ico" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\HtmlPage1.html" />
     <Content Include="Content\images\3collage.jpg" />
     <Content Include="Content\images\aldorain.jpg" />
@@ -315,15 +317,47 @@
     <Content Include="AccessoryStyleSheet.css" />
     <Content Include="BottomDetailsStyle.css" />
     <Content Include="Bottoms.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.css" />
+    <Content Include="images\1640.jpg" />
+    <Content Include="images\plain-white-background.jpg" />
+    <Content Include="images\PSTUSCANY.png" />
+    <Content Include="images\PSTUSCANY2.png" />
+    <Content Include="images\PSTUSCANY3.png" />
+    <Content Include="images\PSTUSCANY4.png" />
+    <Content Include="images\PSTUSCANY5 - Copy.png" />
+    <Content Include="images\PSTUSCANY5.png" />
+    <Content Include="images\PSVIRTUALPET %282%29 - Copy.png" />
+    <Content Include="images\PSVIRTUALPET - Copy.png" />
+    <Content Include="images\PSVIRTUALPET.png" />
+    <Content Include="images\PSVIRTUALPET3.png" />
+    <Content Include="images\PSVIRTUALPET4 - Copy.png" />
+    <Content Include="images\PSVIRTUALPET4.png" />
+    <Content Include="images\PSVIRTUALPET5 - Copy.png" />
+    <Content Include="images\PSVIRTUALPET5.png" />
+    <Content Include="images\PSVPSHELTER - Copy.png" />
+    <Content Include="images\PSVPSHELTER.png" />
+    <Content Include="images\PSVPSHELTER1 - Copy.png" />
+    <Content Include="images\PSVPSHELTER1.png" />
+    <Content Include="images\PSVPSHELTER2 - Copy.png" />
+    <Content Include="images\PSVPSHELTER2.png" />
+    <Content Include="images\PSVPSHELTER3 - Copy.png" />
+    <Content Include="images\PSVPSHELTER3.png" />
+    <Content Include="images\rsz_11rsz_nick-domitio_headshot.jpg" />
     <Content Include="index.html" />
     <Content Include="OutfitsStyleSheet.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ShoeDetailsStyle.css" />
     <Content Include="ShoesStyleSheet.css" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="StyleSheet3.css" />
+    <Content Include="StyleSheet4.css" />
     <Content Include="TopDetailsStyle.css" />
     <Content Include="TopsIndex.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Models\Wardrobe.Context.tt">
@@ -336,8 +370,6 @@
       <DependentUpon>Wardrobe.edmx</DependentUpon>
       <LastGenOutput>Wardrobe.cs</LastGenOutput>
     </Content>
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -354,6 +386,15 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <None Include="Content\packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -407,15 +448,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

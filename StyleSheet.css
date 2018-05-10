@@ -1,0 +1,115 @@
+﻿/*the styling for the parallax scrolling effect*/
+/*the styling for the first section and the "skills header"*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+    color: #777;
+    min-height: 100%;
+}
+/**settings for the 3 main images that will allow for the parallax scrolling effect*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    background-image: url('images/1640.jpg');
+    color: dimgray;
+}
+
+
+
+.second, .third, .fourth {
+    background-color: black;
+}
+
+.first {
+    height: 450px;
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*contains the styling effects for the giphy background of the "skills"/"about me"/"projects" title*/
+/*.skillscontainer {
+    background-color: #C0C0C0;
+}
+    */
+.skillscontainer {
+    display: flex;
+    justify-content: center;
+}
+.skills {
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    border: 5px solid black;
+}
+
+/*this style sheet section is for the about me in the second background image*/
+
+
+.bgimg-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/1640.jpg');
+    min-height: 600px;
+    opacity: 0.75;
+}
+
+
+
+.aboutme {
+    font-size: 1.4vw;
+    color: rgba(0,0,0,0);
+    width: 300px;
+    height: 300px;
+    background-image: url('images/rsz_11rsz_nick-domitio_headshot.jpg');
+    background-size: cover;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 1s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+    /*styling for the transitioning effect when the user hovers over the picture in foreground*/
+    .aboutme:hover {
+        text-align: center;
+        color: dimgray;
+        width: 450px;
+        height: 300px;
+        /* background: rgba(0,0,0,0);  */
+        -webkit-transform: rotate(360deg);
+        background-image: url('images/white background.png'); /* Safari */
+        transform: rotate(360deg);
+    }
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
