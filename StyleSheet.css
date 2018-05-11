@@ -152,7 +152,7 @@ p {
 }
 
     #f1 .front-face img {
-        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll 0 0;
+        /*background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll 0 0;*/
     }
 
 #f2 .front-face, #f2 .back-face-center {
