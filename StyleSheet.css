@@ -57,31 +57,135 @@ body, html {
 }
 
 
-
-.aboutme {
-    font-size: 1.4vw;
-    color: rgba(0,0,0,0);
-    width: 300px;
-    height: 300px;
-    background-image: url('images/rsz_11rsz_nick-domitio_headshot.jpg');
-    background-size: cover;
-    -webkit-transition: width 2s, height 2s, -webkit-transform 1s; /* Safari */
-    transition: width 2s, height 2s, transform 2s;
-}
-    /*styling for the transitioning effect when the user hovers over the picture in foreground*/
-    .aboutme:hover {
-        text-align: center;
-        color: dimgray;
-        width: 450px;
-        height: 300px;
-        /* background: rgba(0,0,0,0);  */
-        -webkit-transform: rotate(360deg);
-        background-image: url('images/white background.png'); /* Safari */
-        transform: rotate(360deg);
-    }
+    
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
+
+
+/*this is for the cards in the about me*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 2rem;
+    line-height: normal;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.grid-block {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.flip-container {
+    display: inline-block;
+    height: 300px !important;
+    margin: 10px;
+    width: 180px !important;
+    position: relative;
+    perspective: 800px;
+}
+
+    .flip-container:hover .flip-card {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+    }
+
+.flip-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+    .flip-card > div {
+        margin: 0;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card .front-face {
+        padding: 8px;
+    }
+
+        .flip-card .front-face img {
+            height: 120px;
+            margin: 15px 15px 0;
+            width: 120px;
+        }
+
+        .flip-card .front-face span {
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+        }
+
+    .flip-card .back-face-center {
+        transform: rotateY(180deg);
+        cursor: default;
+    }
+
+        .flip-card .back-face-center p {
+            color: #fff;
+            font-size: 18px;
+            margin: 0;
+            padding: 8px;
+        }
+
+#f1 .front-face, #f1 .back-face-center {
+    background-color: #e84c3d;
+}
+
+    #f1 .front-face img {
+        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll 0 0;
+    }
+
+#f2 .front-face, #f2 .back-face-center {
+    background-color: #2a80b9;
+}
+
+    #f2 .front-face img {
+        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll -120px 0;
+    }
+
+#f3 .front-face, #f3 .back-face-center {
+    background-color: #16a086;
+}
+
+    #f3 .front-face img {
+        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll -240px 0;
+    }
+
+#f4 .front-face, #f4 .back-face-center {
+    background-color: #9b58b5;
+}
+
+    #f4 .front-face img {
+        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll -480px 0;
+    }
+
+#f5 .front-face, #f5 .back-face-center {
+    background-color: #f39c11;
+}
+
+    #f5 .front-face img {
+        background: rgba(0, 0, 0, 0) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9487/techmodal-icon-sprite.png) repeat scroll -360px 0;
+    }

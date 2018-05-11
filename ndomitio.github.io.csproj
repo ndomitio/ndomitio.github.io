@@ -321,6 +321,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.css" />
     <Content Include="images\1640.jpg" />
+    <Content Include="images\class.JPG" />
     <Content Include="images\click.png" />
     <Content Include="images\plain-white-background.jpg" />
     <Content Include="images\PSTUSCANY.png" />
