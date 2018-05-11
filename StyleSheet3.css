@@ -380,5 +380,5 @@ h1 {
     margin: 2em 1em;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: typing 10s steps(12, end), blink-caret .5s step-end infinite alternate;
+    -webkit-animation: typing 3s steps(12, end), blink-caret .5s step-end infinite alternate;
 }

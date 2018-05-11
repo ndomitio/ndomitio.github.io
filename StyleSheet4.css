@@ -2,6 +2,13 @@
 
 
 /*contains the styling for the projects section*/
+#bigDiv {
+    height: 500px;
+    width: 900px;
+    overflow: scroll;
+}
+
+
 
 @-webkit-keyframes slideshow {
     20% {
@@ -73,7 +80,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 700px;
     height: 400px;
     margin: 50px auto;
     -webkit-perspective: 1100px;
@@ -201,7 +208,7 @@
 }
 
 .container2 {
-    width: 100%;
+    width: 700px;
     height: 400px;
     margin: 100px auto;
     -webkit-perspective: 1100px;
@@ -334,7 +341,7 @@
 }
 
 .container3 {
-    width: 100%;
+    width: 700px;
     height: 400px;
     margin: 50px auto;
     -webkit-perspective: 1100px;
