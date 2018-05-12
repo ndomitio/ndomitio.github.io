@@ -1,0 +1,108 @@
+﻿@model IEnumerable<MusicDBFirstMVC.Models.Album>
+
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/ALBUM.css" rel="stylesheet" />
+
+<h2>Index</h2>
+
+
+<body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</body>
+<figure class="snip1336">
+
+    <img src="~/Content/vince pulpfiction.jpg" alt="sample87" />
+    <figcaption>
+        <img src="https://media.giphy.com/media/TA5UdQTc3NVKg/giphy.gif" alt="profile-sample4" class="profile" />
+        <h2>Vincent Vega<span>Hitman</span></h2>
+        <p>
+            Travolta
+            Vincent
+
+            Vincent Vega was a hitman and associate of Marsellus Wallace.
+
+            He had a brother named Vic Vega who was shot and killed by an undercover cop while on a job. He worked in Amsterdam for over three years and recently returned to Los Angeles, where he has been partnered with Jules Winnfield.
+        </p>
+        <a href="#" class="follow">ABC</a>
+        <a href="#" class="info">ABC</a>
+    </figcaption>
+</figure>
+<figure class="snip1336">
+     @*resize pic to 1000x500*@
+    <img src="~/Content/Kill-Bill.jpg" style="height:21vh;" />
+    <figcaption>
+        <img src="https://media.giphy.com/media/tdLOW7GNuCZXO/giphy.gif" alt="profile-sample4" class="profile" />
+        <h2>Beatrice<span>Kiddo</span></h2>
+        <p>
+            Kiddo is a former member of the "Deadly Viper Assassination Squad", an elite, shadowy group of assassins. A formidable, ruthless warrior trained under martial arts master Pai Mei (Gordon Liu), she served at the right hand of Bill (David Carradine), her boss and lover, a position that provoked the furious envy of fellow Viper Elle Driver (Daryl Hannah).
+
+        </p>
+        <a href="#" class="follow">ABC</a>
+        <a href="#" class="info">ABC</a>
+    </figcaption>
+</figure>
+
+<!-- /container -->
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist.ArtistName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.DateReleased)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JamCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumPhoto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumPhotoBack)
+            </th>
+
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist.ArtistName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReleased)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JamCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumPhoto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumPhotoBack)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AlbumID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.AlbumID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.AlbumID })
+            </td>
+        </tr>
+    }
+
+    </table>*@
