@@ -189,45 +189,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Wardrobe.edmx</DependentUpon>
     </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\App_Start\BundleConfig.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\App_Start\FilterConfig.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\App_Start\RouteConfig.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Controllers\AlbumsController.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Controllers\ArtistsController.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Controllers\HomeController.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Album.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Artist.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.Context.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.Context1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.cs" />
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.Designer.cs">
-      <DependentUpon>Model1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model11.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\sysdiagram.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -387,70 +348,8 @@
     <Content Include="images\PSVPSHELTER3.png" />
     <Content Include="images\rsz_11rsz_nick-domitio_headshot.jpg" />
     <Content Include="index.html" />
-    <Content Include="MusicDBFirstMVC-master\.gitignore" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC.sln" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\ALBUM.css" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\ARTIST.css" />
     <Content Include="BEATLES.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\3collage.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\aldorain.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\AVENGERS 620x396.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\Beatles Signed White Album.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\beatles.txt" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\beatlescomic.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\bootstrap.css" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\bootstrap.min.css" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\charactergrid.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\comicstrip.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\Famous Fonts.txt" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\george.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\hammer.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\KBblackandwhite.png" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\KBsketch.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\Kill-Bill.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\lennon.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\paulmc.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\pulpgiphy.gif" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\quentin.jpeg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\ringo.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\rsz_kbblackandwhite.png" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\sheryl.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\sheryl2.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\Site.css" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\Tarantino+Movies.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\thors-hammer-patch.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\timrothpulpfiction.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\umaKB.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\umapulpfiction.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\vince pulpfiction.jpg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\favicon.ico" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Global.asax" />
     <Content Include="MUSICHOME.css" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context1.cs</LastGenOutput>
-    </Content>
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model11.cs</LastGenOutput>
-    </Content>
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\MusicDBFirstMVC.csproj" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\parallax.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\bootstrap.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\bootstrap.min.js" />
-    <None Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery-1.10.2.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery-1.10.2.min.js" />
-    <None Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery.validate.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery.validate.min.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\modernizr-2.6.2.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\respond.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\respond.min.js" />
-    <Content Include="MusicDBFirstMVC-master\MusicScript.sql" />
     <Content Include="OutfitsStyleSheet.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -500,44 +399,6 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\ApplicationInsights.config" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Content\BOOTLE__.TTF" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\fonts\glyphicons-halflings-regular.woff" />
-    <EntityDeploy Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model11.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Models\Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Content>
-    <None Include="MusicDBFirstMVC-master\MusicDBFirstMVC\packages.config" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Scripts\jquery-1.10.2.min.map" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Albums\Create.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Albums\Delete.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Albums\Details.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Albums\Edit.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Albums\Index.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Artists\Create.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Artists\Delete.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Artists\Details.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Artists\Edit.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Artists\Index.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Home\About.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Home\Contact.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Home\Index.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Shared\Error.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Shared\_Layout.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\Web.config" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Views\_ViewStart.cshtml" />
-    <Content Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Web.config" />
-    <None Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="MusicDBFirstMVC-master\MusicDBFirstMVC\Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
