@@ -1,10 +1,9 @@
 ﻿
 /*the stying for the wardrobe splash page*/
 
-#bigDiv2 {
-    height: 900px;
-    width: 500px;
-    /*overflow: scroll;*/
+#vidContainer {
+display:flex;
+justify-content:center;
 }
 
 
@@ -14,7 +13,7 @@
 /*html, body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: scroll;*/
     font-family: 'BenguiatStd-Bold';
 }*/
 

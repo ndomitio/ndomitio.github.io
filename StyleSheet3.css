@@ -196,6 +196,28 @@ margin-left: 37%;
     border: 5px solid black;
 }
 
+.skills2 {
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*set to transparent, otherwise won't see the background*/
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    border: 5px solid black;
+}
+
 .skillslist {
     margin-left: 37%;
     margin-right: 37%;
